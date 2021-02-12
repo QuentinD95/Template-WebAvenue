@@ -1,0 +1,38 @@
+<ion-header [translucent]="true">
+  <ion-toolbar color="tertiary">
+    <ion-title>
+      <img src="../../assets/img/logo.png" class="logo" alt="">
+    </ion-title>
+
+    <ion-buttons slot="end">
+      <ion-button>
+        <ion-icon color="secondary" size="small" slot="icon-only" name="search-sharp"></ion-icon>
+      </ion-button>
+    </ion-buttons>
+
+  </ion-toolbar>
+</ion-header>
+
+<ion-content class="background" [fullscreen]="true">
+
+  <ion-segment class="flexbox-row" value="choix-methode">
+    <ion-segment-button value="livraison">
+      <ion-label>Livraison</ion-label>
+      <ion-icon name="bicycle-sharp"></ion-icon>
+    </ion-segment-button>
+
+    <ion-segment-button value="emporter">
+      <ion-icon name="bag-handle-sharp"></ion-icon>
+      <ion-label>À Emporter</ion-label>
+    </ion-segment-button>
+  </ion-segment>
+
+  <div class="flexbox-column">
+    <ion-item>
+      <ion-icon name="compass-outline" slot="start" color="primary"></ion-icon>
+      <ion-input class="input-style" placeholder="Saisir une adresse..."></ion-input>
+
+    </ion-item>
+    <ion-button class="order-bouton">Commander</ion-button>
+  </div>
+</ion-content>

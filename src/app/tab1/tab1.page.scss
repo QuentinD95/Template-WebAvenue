@@ -1,0 +1,46 @@
+.logo {
+  /*height: var(--logo-homeselect-height);*/
+  margin-top: var(--logo-homeselect-margin-top);
+}
+
+.background {
+  --background: url('../../assets/img/bg.jpg');
+}
+
+ion-item {
+  margin: var(--ion-item-margin);
+}
+
+.flexbox-column {
+  display: var(--div-display);
+  justify-content: var(--div-justify-content);
+  align-items: var(--div-align-items);
+  flex-direction: var(--div-flex-direction-column);
+  position : var(--div-position);
+  top : var(--div-position-top);
+}
+
+.flexbox-row {
+    display: var(--div-display);
+    justify-content: var(--div-justify-content);
+    align-items: var(--div-align-items);
+    flex-direction: var(--div-flex-direction-row);
+    position : var(--div-position);
+    top : var(--div-position-top-choice);
+  }
+
+.order-bouton {
+  --background: black;
+  height: var(--button-homeselect-height);
+  width: var(--button-homeselect-width);
+  --box-shadow: none;
+  --border-radius: 0;
+  text-transform: var(--button-homeselect-text-transform);
+  font-size: var(--button-homeselect-fontsize);
+  letter-spacing: var(--button-homeselect-letterspacing);
+  color: var(--button-homeselect-color);
+}
+
+.input-style{
+    font-style : var(--input-font-style);
+}
