@@ -1,0 +1,43 @@
+.flexbox-row {
+  display: var(--div-display);
+  justify-content: var(--div-justify-content);
+  align-items: var(--div-align-items);
+  flex-direction: var(--div-flex-direction-row);
+  margin: auto;
+}
+
+.flexbox-row ion-button {
+  margin-top: 20px;
+  --border-radius: 50px;
+  width: 43%;
+}
+
+.login{
+
+    margin-top : 30px;
+    display : var(--div-display);
+    justify-content : var(--div-justify-content);
+    align-items : var(--div-align-items);
+    flex-direction : var(--div-flex-direction-column);
+}
+
+.facebook {
+  --background: #3b5998;
+  --border-radius : 2px;
+  width: 70%;
+}
+
+.google {
+  --background: #db4a39;
+  --border-radius : 2px;
+  width: 70%;
+}
+
+p > a{
+    color : #db589c;
+    text-decoration: none;
+}
+
+p{
+    color : var(--ion-color-tertiary);
+}

@@ -14,6 +14,54 @@ const routes: Routes = [
     path: 'formule',
     loadChildren: () => import('./formule/formule.module').then( m => m.FormulePageModule)
   },
+  {
+    path: 'search',
+    loadChildren: () => import('./search/search.module').then( m => m.SearchPageModule)
+  },
+  {
+    path: 'compte',
+    loadChildren: () => import('./compte/compte.module').then( m => m.ComptePageModule)
+  },
+  {
+    path: 'panier',
+    loadChildren: () => import('./panier/panier.module').then( m => m.PanierPageModule)
+  },
+  {
+    path: 'entrees',
+    loadChildren: () => import('./entrees/entrees.module').then( m => m.EntreesPageModule)
+  },
+  {
+    path: 'plats',
+    loadChildren: () => import('./plats/plats.module').then( m => m.PlatsPageModule)
+  },
+  {
+    path: 'boissons',
+    loadChildren: () => import('./boissons/boissons.module').then( m => m.BoissonsPageModule)
+  },
+  {
+    path: 'dessert',
+    loadChildren: () => import('./dessert/dessert.module').then( m => m.DessertPageModule)
+  },
+  {
+    path: 'pizza',
+    loadChildren: () => import('./pizza/pizza.module').then( m => m.PizzaPageModule)
+  },
+  {
+    path: 'wok',
+    loadChildren: () => import('./wok/wok.module').then( m => m.WokPageModule)
+  },
+  {
+    path: 'lafas',
+    loadChildren: () => import('./lafas/lafas.module').then( m => m.LafasPageModule)
+  },
+  {
+    path: 'burger',
+    loadChildren: () => import('./burger/burger.module').then( m => m.BurgerPageModule)
+  },
+  {
+    path: 'inscription',
+    loadChildren: () => import('./inscription/inscription.module').then( m => m.InscriptionPageModule)
+  },
 ];
 @NgModule({
   imports: [

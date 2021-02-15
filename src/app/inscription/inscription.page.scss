@@ -1,0 +1,23 @@
+ion-content {
+  --background: rgb(245, 245, 245);
+}
+
+.flexbox-column {
+  display: var(--div-display);
+  justify-content: var(--div-justify-content);
+  align-items: var(--div-align-items);
+  flex-direction: var(--div-flex-direction-column);
+  margin: auto;
+  margin-top: 25px;
+}
+
+ion-input {
+  margin-top: 20px;
+  --background: white;
+  width: 100%;
+}
+
+ion-input {
+  --placeholder-color: rgb(168, 168, 168);
+  --placeholder-opacity: 1;
+}

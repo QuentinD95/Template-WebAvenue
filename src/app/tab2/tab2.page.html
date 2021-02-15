@@ -4,7 +4,7 @@
       <h3 class="h3-selection">Le Restaurant</h3>
     </ion-title>
     <ion-buttons slot="end">
-      <ion-button>
+      <ion-button routerLink="/search">
         <ion-icon color="secondary" size="small" slot="icon-only" name="search-sharp"></ion-icon>
       </ion-button>
     </ion-buttons>
@@ -17,9 +17,12 @@
 
   <div class="ion-padding wrapper">
 
+
+    <!-- ********************************************* -->
+
     <ion-searchbar></ion-searchbar>
 
-
+    <!-- ********************************************* -->
 
 
     <div class="ion-padding-horizontal wrapper">
@@ -54,8 +57,7 @@
       <ion-row class="ion-align-items-baseline">
         <ion-col style="padding-top : 10px" size="6">
           <h4 class="title" style="margin-left :20px;">
-            Les + populaires
-          </h4>
+            Les + populaires</h4>
         </ion-col>
         <ion-col size="6">
           <h4 class="more ion-text-end">
