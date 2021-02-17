@@ -3,20 +3,24 @@
   <ion-tab-bar color="primary" slot="bottom">
     <ion-tab-button tab="tab1">
       <ion-icon class="size-icon" name="home-sharp"></ion-icon>
+      <ion-label>Accueil</ion-label>
     </ion-tab-button>
 
     <ion-tab-button tab="tab2">
       <ion-icon class="size-icon" name="menu-sharp"></ion-icon>
+      <ion-label>Menu</ion-label>
     </ion-tab-button>
 
     <ion-tab-button tab="panier">
       <ion-badge color="danger"> 3 </ion-badge>
       <ion-icon class="size-icon" name="bag-sharp"></ion-icon>
+      <ion-label>Panier</ion-label>
     </ion-tab-button>
 
     <ion-tab-button tab="compte">
       <ion-icon routerLink="/compte" class="size-icon" name="person-circle-sharp"></ion-icon>
-    </ion-tab-button>
+    <ion-label>Compte</ion-label>
+  </ion-tab-button>
   </ion-tab-bar>
 
 </ion-tabs>

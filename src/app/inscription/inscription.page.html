@@ -1,16 +1,24 @@
 <ion-header>
   <ion-toolbar>
+    <ion-buttons slot="start">
+      <ion-back-button text="" icon="chevron-back-sharp"></ion-back-button>
+
+    </ion-buttons>
     <ion-title>Inscription</ion-title>
   </ion-toolbar>
 </ion-header>
 
 <ion-content>
 
-    <div class="flexbox-column">
-      <ion-input clearInput type="mail" placeholder="Adresse email"></ion-input>
-      <ion-input clearInput placeholder="Mot de Passe"></ion-input>
-      <ion-input clearInput placeholder="Confirmer mot de passe"></ion-input>
-      <ion-button>Continuer</ion-button>
-    </div>
+  <div class="flexbox-column">
+    <ion-input class="placeholder-size" placeholder = "Nom" type="text"></ion-input>
+    <ion-input class="placeholder-size" placeholder = "Prénom" type="text"></ion-input>
+    <ion-input class="placeholder-size" placeholder = "Adresse Email" type="mail"></ion-input>
+    <ion-input class="placeholder-size" placeholder = "Mot de passe"></ion-input>
+    <ion-input class="placeholder-size" placeholder = "Téléphone" type="number"></ion-input>
+    <ion-button>Continuer</ion-button>
+  
+  </div>
+
 
 </ion-content>

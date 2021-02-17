@@ -31,14 +31,6 @@ const routes: Routes = [
     loadChildren: () => import('./entrees/entrees.module').then( m => m.EntreesPageModule)
   },
   {
-    path: 'plats',
-    loadChildren: () => import('./plats/plats.module').then( m => m.PlatsPageModule)
-  },
-  {
-    path: 'boissons',
-    loadChildren: () => import('./boissons/boissons.module').then( m => m.BoissonsPageModule)
-  },
-  {
     path: 'dessert',
     loadChildren: () => import('./dessert/dessert.module').then( m => m.DessertPageModule)
   },
@@ -61,6 +53,10 @@ const routes: Routes = [
   {
     path: 'inscription',
     loadChildren: () => import('./inscription/inscription.module').then( m => m.InscriptionPageModule)
+  },
+  {
+    path: 'inscriptiondone',
+    loadChildren: () => import('./inscriptiondone/inscriptiondone.module').then( m => m.InscriptiondonePageModule)
   },
 ];
 @NgModule({

@@ -1,5 +1,15 @@
 ion-content{
-    --background: rgb(250, 250, 250);
+    --background: #fff9f9;
+}
+
+ion-toolbar:last-of-type{
+    --border-width : 0 0 0;
+    --background : #fff9f9;
+}
+
+ion-title{
+    letter-spacing : .5px;
+    color :#290618;
 }
 
 .header-ios ion-toolbar:last-of-type {
@@ -15,8 +25,24 @@ ion-content{
 
 }
 
-ion-button{
-    width : 75%;
-    --border-radius : 0px;
-    margin : 14px;
+.bouton-menu{
+    width : 90%;
+    --border-radius : 2px;
+    border : none;
+    --background : #290618;
+    margin : 9px;
+    letter-spacing : .5px;
+    font-weight : 500;
+    font-size : 14px;
 }
+
+ion-back-button{
+    font-size :12px;
+    margin-left : 20px;
+  }
+
+  .search-icon{
+      margin : 20px;
+      font-size :12px;
+      color : #290618;
+  }

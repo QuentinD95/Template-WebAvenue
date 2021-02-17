@@ -1,12 +1,19 @@
 <ion-header>
   <ion-toolbar>
-    <ion-title>Mon Compte</ion-title>
+    <ion-title>Compte</ion-title>
   </ion-toolbar>
 </ion-header>
 
 <ion-content>
 
-  <div class="login">
+<div class="flexbox-column">
+    <ion-input class="placeholder-size" placeholder = "Adresse Mail"></ion-input>
+    <ion-input class="placeholder-size" placeholder = "Mot de Passe"></ion-input>
+    <ion-button class="signin-bouton">Me connecter</ion-button>
+</div>
+
+
+  <div class="signin">
     <ion-button class="facebook">
       <ion-icon style="margin-right : 20px;" name="logo-facebook"></ion-icon>Continuer avec Facebook
     </ion-button>
@@ -14,9 +21,9 @@
       <ion-icon style="margin-right : 20px;" name="logo-google"></ion-icon>Continuer avec Gmail
     </ion-button>
 
-  <p>ou</p>
+    <p>ou</p>
 
-  <p><a routerLink ="/inscription">Continuer avec une adresse mail</a></p>
+    <p><a routerLink="/inscription">Continuer avec une adresse mail</a></p>
 
   </div>
 

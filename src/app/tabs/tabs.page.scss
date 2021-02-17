@@ -1,8 +1,27 @@
 
 ion-tab-bar{
     display : var(--ion-tab-bar-display);
+    background : #290618;
 }
 
 .size-icon{
     font-size : 20px;
+}
+
+ion-icon{
+    color: white;
+}
+
+ion-tab-button{
+    background : #290618;
+}
+
+ion-label{
+    font-size : 9px;
+}
+
+ion-badge{
+    background : var(--ion-color-secondary);
+    color : white;
+    font-family : 'Montserrat', sans-serif;
 }

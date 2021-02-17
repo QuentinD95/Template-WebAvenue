@@ -1,143 +1,131 @@
-/*ion-content {
-  --background: var(--ion-color-tertiary);
+ ion-content {
+   --background: #fff9f9;
+ }
+
+ ion-toolbar:last-of-type {
+   --border-width: 0 0 0;
+   --background: #fff9f9;
+ }
+
+ ion-item {
+   --background: rgba(248, 248, 250, .96);
+
+   h2 {
+     font-weight: bold;
+     font-size: 18px;
+     padding-top: 8px;
+   }
+
+ }
+
+ ion-buttons{
+   margin: 18px 10px 0 0;
+ }
+
+ ion-title{
+   letter-spacing : .5px;
+   color : #290618;
+   margin-top : 9px;
+ }
+
+
+ .placeholder-size{
+  color:#b8acac;
+  font-size : 15px;
+  padding-left :0;
+  padding-right :0;
+  width : 100%;
 }
 
-ion-segment {
-  --background: none;
+.placeholder-size input{
+  padding-left : 10px;
 }
 
-ion-segment-button {
-    margin-top : 2rem;
-  font-size: 1rem;
-  --border-width: 0;
-  --padding: 8px 10px;
-  --background-checked : #E40E7E;
-  --indicator-color : transparent !important;
-  --color : #1F1F1F;
-  --color-checked : white;
-  font-weight: bold;
 
-}
+ ion-searchbar {
+   --box-shadow: none;
+   --border-radius: 2px;
+   height : 40px;
+ }
 
-.div-selection {
-  display: var--(div-display-flex);
-  justify-content: var(--div-justify-content-center);
-  align-items: var(--div-align-items);
-  flex-direction: var(--div-flex-direction-column);
-  position: var(--div-position);
-  top: 125px;
-}
+ ion-searchbar > icon{
+   color : #b8acac
+ }
 
-.selection {
-  width: 75%;
-  margin: 10px;
-  padding: 40px 20px;
-  letter-spacing: 1.5px;
-  background-color: rgba(0, 0, 0, 0.4);
-  opacity: 0.8;
-  color: white;
-  border: 5px solid white;
-  letter-spacing: 2.5px;
-  font-size: 16px;
-}
+ .more {
+   font-size: 12px;
+   color: #FB4E4E;
+ }
 
-.h3-selection {
-  font-size: 14px;
-  text-transform: uppercase;
-  letter-spacing: 2px;
-*}*/
+ .title {
+   font-size: 16px;
+ }
 
-/* ************* */
+ .card {
+   margin: 0;
+   margin-right: 50px;
+   width: 80%;
+   box-shadow: none;
+   border-radius: 2px;
+ }
 
-ion-item {
-    --background: rgba(248, 248, 250, .96);
-  
-    h2 {
-      font-weight: bold;
-      font-size: 18px;
-      padding-top: 8px;
-    }
-  
-  }
-  
-  ion-content {
-    --background: #f8f8fa;
-  }
-  
-  ion-searchbar {
-    --box-shadow: none;
-    --border-radius: 2px;
-  }
-  
-  .more {
-    font-size: 12px;
-    color: #FB4E4E;
-  }
-  
-  .title {
-    font-size: 16px;
-  }
-  
-  .card {
-    margin: 0;
-    margin-right: 50px;
-    width: 80%;
-    box-shadow: none;
-    border-radius: 2px;
-  }
-  
-  
-  .category {
-      display : flex;
-    box-shadow: none;
-    border-radius: 2px;
-  }
-  
-  
-  ion-card-content {
-    .img-wrapper {
-      border-radius: 2px;
-      height: 200px;
-      overflow: hidden;
-      margin-bottom: 8px;
-    }
-  
-    ion-icon {
-      color: #f2994a;
-      padding-right: 4px;
-    }
-  
-    ion-card-subtitle:last-of-type {
-      padding-top:6px;
-    }
-  
-  }
-  
-  ion-card-header {
-    ion-icon {
-      font-size: 60px;
-    }
-  
-    ion-card-title {
-      font-size: 22px;
-      font-weight: bolder;
-    }
-  }
-  
-  .wrapper {
-    padding-bottom: 0;
-  }
-  
-  ion-badge {
-    padding: 10px;
-    font-size: 14px;
-  }
-  
-  ion-row{
-      align-items: baseline;
-  }
 
-  ion-slides{
-      display : flex;
-      --overflow: visible;
-  }
+ .category {
+   display: flex;
+   box-shadow: none;
+   border-radius: 2px;
+ }
+
+
+ ion-card-content {
+   .img-wrapper {
+     border-radius: 2px;
+     height: 200px;
+     overflow: hidden;
+     margin-bottom: 8px;
+   }
+
+   ion-icon {
+     color: #f2994a;
+     padding-right: 4px;
+   }
+
+   ion-card-subtitle:last-of-type {
+     padding-top: 6px;
+   }
+
+ }
+
+ ion-card-header {
+   ion-icon {
+     font-size: 60px;
+   }
+
+   ion-card-title {
+     font-size: 22px;
+     font-weight: bolder;
+   }
+ }
+
+ .wrapper {
+   padding-bottom: 0;
+ }
+
+ ion-badge {
+   padding: 10px;
+   font-size: 14px;
+ }
+
+ ion-row {
+   align-items: baseline;
+ }
+
+ ion-slides {
+   display: flex;
+   --overflow: visible;
+ }
+
+ ion-segment {
+   height: 10vh;
+   border-radius: 2px;
+ }
