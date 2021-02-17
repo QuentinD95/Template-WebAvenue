@@ -8,11 +8,11 @@ ion-toolbar:last-of-type {
   margin-top: var(--logo-homeselect-margin-top);
   position : absolute;
   top : 60px;
-  left : 50%;
+  left : 15%;
 }
 
 ion-title{
-  width : 50%;
+  width : 75%;
 }
 
 ion-buttons{
@@ -23,9 +23,7 @@ ion-buttons{
 
 .background {
   --background: url('../../assets/img/background-accueil.jpg');
-  background-size : cover;
-  background-repeat: no-repeat;
-  --background-position-x : 200px;
+  
 }
 
 ion-item {
@@ -70,4 +68,9 @@ ion-item {
 
 .flexbox-column ion-item ion-icon{
 color : #b8acac;
+}
+
+ion-segment{
+  color : white;
+  --color-checked : #290618;
 }
