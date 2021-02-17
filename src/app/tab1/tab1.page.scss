@@ -3,9 +3,22 @@ ion-toolbar:last-of-type {
   --background: none;
 }
 
-z.logo {
+.logo {
   /*height: var(--logo-homeselect-height);*/
   margin-top: var(--logo-homeselect-margin-top);
+  position : absolute;
+  top : 60px;
+  left : 50%;
+}
+
+ion-title{
+  width : 50%;
+}
+
+ion-buttons{
+  position : absolute;
+  top : 60px;
+  left : 75%;
 }
 
 .background {

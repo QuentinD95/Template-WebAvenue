@@ -1,3 +1,19 @@
+ion-content{
+  --background: #fff9f9;
+}
+
+ion-toolbar:last-of-type{
+  --border-width : 0 0 0;
+  --background : #fff9f9;
+}
+
+
+ion-title{
+  letter-spacing : .5px;
+  color :#290618;
+  margin-top : 1rem;
+}
+
 ion-back-button{
     font-size :12px;
     margin-left : 20px;
