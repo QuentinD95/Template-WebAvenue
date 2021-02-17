@@ -1,7 +1,7 @@
 <ion-header>
   <ion-toolbar>
     <ion-buttons slot="start">
-      <ion-back-button text=""icon="chevron-back-sharp"></ion-back-button>
+      <ion-back-button text="" icon="chevron-back-sharp"></ion-back-button>
     </ion-buttons>
     <ion-title>La Carte</ion-title>
     <ion-buttons slot="end">
@@ -14,14 +14,64 @@
 
 <ion-content>
 
-  <div class="flexbox-column">
-  <ion-button class="bouton-menu" routerLink="/entrees" >ENTREES</ion-button>
-  <ion-button class="bouton-menu" routerLink="/pizza">PIZZAS</ion-button>
-  <ion-button class="bouton-menu" routerLink="/wok">WOK</ion-button>
-  <ion-button class="bouton-menu" routerLink="/lafas">LAFAS</ion-button>
-  <ion-button class="bouton-menu" routerLink="/burger">BURGERS</ion-button>
-  <ion-button class="bouton-menu" routerLink="/dessert">DESSERTS</ion-button>
-  </div>
+  <!--<div class="flexbox-column">
+    <ion-button class="bouton-menu" routerLink="/entrees">ENTREES</ion-button>
+    <ion-button class="bouton-menu" routerLink="/pizza">PIZZAS</ion-button>
+    <ion-button class="bouton-menu" routerLink="/wok">WOK</ion-button>
+    <ion-button class="bouton-menu" routerLink="/lafas">LAFAS</ion-button>
+    <ion-button class="bouton-menu" routerLink="/burger">BURGERS</ion-button>
+    <ion-button class="bouton-menu" routerLink="/dessert">DESSERTS</ion-button>
+  </div> -->
+
+  <ion-slides [options]="options">
+    <ion-slide>
+      <ion-segment routerLink = "/inscription">
+        <ion-icon name="fast-food-sharp"></ion-icon>
+        <ion-label>Entrées</ion-label>
+      </ion-segment>
+    </ion-slide>
+
+    <ion-slide>
+      <ion-segment>
+        <ion-icon name="fast-food-outline"></ion-icon>
+        <ion-label>Pizzas</ion-label>
+      </ion-segment>
+    </ion-slide>
+
+    <ion-slide>
+      <ion-segment>
+        <ion-icon name="person-circle-outline"></ion-icon>
+        <ion-label>Wok</ion-label>
+      </ion-segment>
+    </ion-slide>
+
+    <ion-slide>
+      <ion-segment>
+        <ion-icon name="person-circle-sharp"></ion-icon>
+         <ion-label>Lafas</ion-label>
+      </ion-segment>
+    </ion-slide>
+
+    <ion-slide>
+      <ion-segment>
+        <ion-icon name="person-circle-outline"></ion-icon>
+         <ion-label>Burger</ion-label>
+      </ion-segment>
+    </ion-slide>
+
+    <ion-slide>
+      <ion-segment>
+        <ion-icon name="person-circle-sharp"></ion-icon>
+         <ion-label>Desserts</ion-label>
+      </ion-segment>
+    </ion-slide>
+
+    <ion-slide>
+      <ion-segment>
+        <ion-icon name="person-circle-sharp"></ion-icon>
+         <ion-label>Boissons</ion-label>
+      </ion-segment>
+    </ion-slide>
+  </ion-slides>
 
 </ion-content>
-

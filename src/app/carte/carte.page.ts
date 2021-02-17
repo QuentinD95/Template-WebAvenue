@@ -9,6 +9,14 @@ export class CartePage implements OnInit {
 
   constructor() { }
 
+  options = {
+    loop : true,
+    centeredSlides: true,
+    slidesPerView: 5,
+    spaceBetween: 15,
+  };
+
+
   ngOnInit() {
   }
 

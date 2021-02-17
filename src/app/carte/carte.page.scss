@@ -46,3 +46,31 @@ ion-back-button{
       font-size :12px;
       color : #290618;
   }
+
+
+  /** SLIDES **/
+
+  ion-slides{
+      margin-top : 1rem;
+  }
+
+  ion-slide{
+      display : flex;
+      justify-content : center;
+      flex-direction : row;
+      align-items: center;
+      align-content : center;
+  }
+
+  ion-segment{
+      display: flex;
+      margin : auto;
+      flex-direction: column;
+      align-items : center;
+      padding : 15px 15px;
+      width : 100px;
+      border-radius : 50px;
+      font-size : 12px;
+      --background : #290618;
+      color : #FFF9F9;
+  }

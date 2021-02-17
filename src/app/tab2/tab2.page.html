@@ -25,6 +25,15 @@
     <!-- ********************************************* -->
 
 
+<!-- ****************
+      
+      CATÉGORIES :
+    
+    - LA CARTE
+    - NOF FORMULES
+  
+  *************** -->
+
     <div class="ion-padding-horizontal wrapper">
 
       <ion-grid class="ion-no-padding">
@@ -40,14 +49,14 @@
     </div>
 
     <ion-segment>
-      <ion-segment-button routerLink="/carte" value="carte">
+      <ion-segment-button class="segment-gauche" routerLink="/carte" value="carte">
         <ion-icon name=newspaper-outline></ion-icon>
-        <ion-label style="text-transform : capitalize; font-size: 12px">La Carte</ion-label>
+        <ion-label>La Carte</ion-label>
       </ion-segment-button>
 
-      <ion-segment-button routerLink="/formule" value="formule">
+      <ion-segment-button class="segment-droit" routerLink="/formule" value="formule">
         <ion-icon name="pizza"></ion-icon>
-        <ion-label style="text-transform : capitalize; font-size :12px;">Formules</ion-label>
+        <ion-label>Formules</ion-label>
       </ion-segment-button>
     </ion-segment>
 
