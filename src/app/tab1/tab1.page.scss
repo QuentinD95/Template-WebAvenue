@@ -22,7 +22,10 @@ ion-buttons{
 }
 
 .background {
-  --background: url('../../assets/img/bg.jpg');
+  --background: url('../../assets/img/background-accueil.jpg');
+  background-size : cover;
+  background-repeat: no-repeat;
+  --background-position-x : 200px;
 }
 
 ion-item {
