@@ -60,6 +60,7 @@ ion-back-button{
       flex-direction : row;
       align-items: center;
       align-content : center;
+      --width : 75px;
   }
 
   ion-segment{
@@ -73,4 +74,9 @@ ion-back-button{
       font-size : 12px;
       --background : #290618;
       color : #FFF9F9;
+  }
+
+  ion-slide ion-segment ion-icon{
+      font-size : 24px;
+      margin-bottom : 5px;
   }

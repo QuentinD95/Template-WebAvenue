@@ -11,6 +11,7 @@ export class Tab2Page {
 
 
   options = {
+    loop : true,
     centeredSlides: true,
     slidesPerView: 1,
     spaceBetween: -60,
